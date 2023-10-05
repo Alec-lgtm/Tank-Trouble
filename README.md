@@ -58,7 +58,3 @@ While we've done our best to ensure a smooth gaming experience, here are some kn
 
 ## Acknowledgement
 **Advisor:** Amin G. Alhashim
-
-## Contact
-
-If you have any questions or need assistance, you can contact us at [alec1@macalester.edu].
