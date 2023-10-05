@@ -1,37 +1,64 @@
-# Tank Trouble!
+# Tank Trouble
 
-### Team members
-
-- Alec G Chen
+**Team Members:**
+- Alec Chen
 - Elisa Avalos
 - Sydney Ohr
 
-### Project Description
+## Project Description
+Tank Trouble is an exhilarating two-player 1v1 game where players take control of tanks, navigating a maze, and engage in heated battles to accumulate 10 points and emerge as the victor. This project was developed as part of the COMP 127 Object-Oriented Programming and Abstraction course at Macalester College.
 
-> One sentence summmary: Tank Trouble is a two player 1v1 game that allows users to control and fire a tank while navigating a maze, and the first user to reach 10 points wins.
+**Gameplay Description:**
+In Tank Trouble, players control tanks as they explore a maze, aiming to accumulate 10 points. The game offers [S,E,D,F] and [UP_ARROW, DOWN_ARROW, RIGHT_ARROW, LEFT_ARROW] for movement and keys [Q] and [M] for firing, letting players maneuver their tanks, avoid enemy fire, and aim precisely. It delivers engaging tank combat within a maze environment.
 
-> Technical Guide: Our code requires Java 17 to use Kilt Graphics.
+**Objective:**
+The objective is to accumulate 10 points before your opponent does. Points are earned by successfully hitting your opponent's tank while avoiding being hit yourself. Tank Trouble is a test of skill and strategy as you aim to outwit your adversary in the maze.
 
-> Running the code: To run the program, fork the code from GitHub and open it on VS Code. The main class that sets up and runs the game is TankTroubleGame.
+**Technical Requirements:**
+Java 17 is required to run this project, which utilizes the Kilt Graphics library.
 
-References: 
+## Getting Started
 
-- Inspiration for our project: https://www.construct.net/en/free-online-games/tank-trouble-82/play
+Follow these steps to run the game:
 
-- Java Foundations Introduction to Program Design and Data Structures (5th Edition) (2019).pdf
- 
-- Tank images from https://lpc.opengameart.org/content/top-down-painted-tanks#comment-form
+1. Clone the project repository from GitHub.
 
-- Opening screen image from https://www.construct.net/en/free-online-games/tank-trouble-82/play
+   ```shell
+   git clone https://github.com/yourusername/TankTrouble.git
+   ```
 
-- Trophy images from https://creazilla.com/nodes/70434-trophy-clipart
+2. Open the project in your preferred Java development environment, such as VS Code.
 
-### Known Issues
-There is a corner glitch in which the user is able to run the tank slightly over the corner of the wall and sometimes the balls go through the corner. There is a possibility that the balls may find their way out of the maze when the canvas resets for the next round. The balls run along the edge of the maze but don’t affect the performance of the game. A rare bug the program has is that player 2 may lose the round the instant they shoot a ball due to spawning location of the ball (instant self-kill). Also, if a tank shoots a ball during the pause between rounds, a ball may be fired as soon as the game runs. If there are too many balls on the screen, on player-ball collision, the program may crash.
+3. Locate and run the TankTroubleGame class to set up and start the game.
+
+## References
+We drew inspiration from the classic Tank Trouble game, available [here](https://www.construct.net/en/free-online-games/tank-trouble-82/play).
+
+Additional resources used in this project include:
+
+- "Java Foundations Introduction to Program Design and Data Structures (5th Edition) (2019).pdf"
+- Tank images from [OpenGameArt](https://lpc.opengameart.org/content/top-down-painted-tanks#comment-form)
+- Opening screen image from [Construct.net](https://www.construct.net/en/free-online-games/tank-trouble-82/play)
+- Trophy images from [Creazilla](https://creazilla.com/nodes/70434-trophy-clipart)
+
+## Known Issues
+While we've done our best to ensure a smooth gaming experience, here are some known issues:
+
+- **Corner Glitch:** Occasionally, players can exploit a corner glitch, allowing tanks to partially overlap walls. Balls may also pass through corners.
+- **Ball Escape:** In rare cases, balls may exit the maze when the canvas resets between rounds.
+- **Instant Self-Kill:** Player 2 may lose a round instantly if a ball spawns in a specific location.
+- **Rapid Ball Fire:** Shooting a ball during the round transition may result in immediate ball firing.
+- **Performance Impact:** Excessive balls on-screen may lead to program crashes upon player-ball collisions.
 
 ### Societal Impact
-- Restrictions: There are no restrictions on people who can play Tank Trouble. Though, it may be diffcult for the visually-impaired and people who are physically unable to use a keyboard/computer to play the game.
 
-- Access: Game access is limited to people who have access to a computer. 
+- **Accessibility:** Tank Trouble is accessible to users with a computer and basic keyboard skills. However, it may pose challenges for visually-impaired individuals or those with physical disabilities that limit computer usage.
 
-- Ethics: It is hard to think of ways our game can be used in a malicious/oppressive way, but we won’t rule out the possibility that it can be used in that kind of manner. 
+- **Ethical Considerations:** While the game itself is designed for entertainment, we acknowledge the potential for misuse or excessive competitiveness in multiplayer settings. We encourage responsible and fair gameplay.
+
+## Acknowledgement
+**Advisor:** Amin G. Alhashim
+
+## Contact
+
+If you have any questions or need assistance, you can contact us at [alec1@macalester.edu].
