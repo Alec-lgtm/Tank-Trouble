@@ -9,7 +9,7 @@
 Tank Trouble is an exhilarating two-player 1v1 game where players take control of tanks, navigating a maze, and engage in heated battles to accumulate 10 points and emerge as the victor. This project was developed as part of the **COMP 127 Object-Oriented Programming and Abstraction** course at Macalester College.
 
 **Gameplay Description:**
-In Tank Trouble, players control tanks as they explore a maze, aiming to accumulate 10 points. The game offers [S,E,D,F] and [UP_ARROW, DOWN_ARROW, RIGHT_ARROW, LEFT_ARROW] for movement and keys [Q] and [M] for firing, letting players maneuver their tanks, avoid enemy fire, and aim precisely. It delivers engaging tank combat within a maze environment.
+In Tank Trouble, players control tanks as they explore a maze, aiming to accumulate 10 points. The game offers [E,D,F,S] and [UP_ARROW, DOWN_ARROW, RIGHT_ARROW, LEFT_ARROW] for movement and keys [Q] and [M] for firing, letting players maneuver their tanks, avoid enemy fire, and aim precisely. It delivers engaging tank combat within a maze environment.
 
 **Objective:**
 The objective is to accumulate 10 points before your opponent does. Points are earned by successfully hitting your opponent's tank while avoiding being hit yourself. Tank Trouble is a test of skill and strategy as you aim to outwit your adversary in the maze.
